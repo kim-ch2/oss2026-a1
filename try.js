@@ -26,5 +26,6 @@
 // README 예제가 const x = require("...") 형태라면 import x from "..." 로 바꿔야 합니다.
 
 // ↓ 여기부터 작성
-
-console.log("아직 비어 있습니다. 위 주석을 읽고 패키지를 하나 import해서 호출해보세요.");
+import stringWidth from "string-width";
+console.log("hello의 폭:", stringWidth("hello"));
+console.log("안녕하세요의 폭:", stringWidth("안녕하세요"));

@@ -7,5 +7,8 @@
   "scripts": {
     "start": "node main.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "string-width": "^8.2.2"
+  }
 }
